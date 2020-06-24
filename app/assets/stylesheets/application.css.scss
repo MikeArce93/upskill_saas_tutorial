@@ -16,6 +16,14 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+//Gradient provided by https://twitter.com/_ighosh from UIgradients.com
+body {
+background: #fceabb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #f8b500, #fceabb);
+background: -moz-linear-gradient(left, #f8b500, #fceabb);
+background: -o-linear-gradient(left, #f8b500, #fceabb);
+background: linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
