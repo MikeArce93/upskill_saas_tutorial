@@ -20,25 +20,50 @@
 
 //Gradient provided by https://twitter.com/_ighosh from UIgradients.com
 .navbar, .home-callout {
-background: #fceabb;  /* fallback for old browsers */
-background: -webkit-linear-gradient(left, #f8b500, #fceabb);
-background: -moz-linear-gradient(left, #f8b500, #fceabb);
-background: -o-linear-gradient(left, #f8b500, #fceabb);
-background: linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
+    background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #ACB6E5, #74ebd5);
+background: -moz-linear-gradient(left, #ACB6E5, #74ebd5);
+background: -o-linear-gradient(left, #ACB6E5, #74ebd5);
+background: linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 .navbar {
     border: none;
 }
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    opacity: 0.75;
+}
+
 
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 100px;
     color: white;
-}
+    }
 
 
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     }
+
+h1 {
+    font-size: 60px;
+}
