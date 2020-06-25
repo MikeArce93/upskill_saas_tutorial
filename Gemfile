@@ -31,6 +31,9 @@ gem 'jbuilder', '2.5.0'
 # Use Twitter bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
+# Use Font Awesome sass gem for adding icons
+gem 'font-awesome-sass', '4.6.2'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
@@ -51,6 +54,7 @@ group :production do
   # USe the PostgreSQL gem for Heroku production servers
   gem 'pg', '0.18.4'
 end
+
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
