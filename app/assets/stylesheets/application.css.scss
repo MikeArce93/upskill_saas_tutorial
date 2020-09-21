@@ -59,6 +59,17 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safar
         opacity: 0.75;
     }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid white;
+    &:hover, &:focus {
+    background-color: #74ebd5;
+    }
+}
 //Homepage styles
 .home-callout {
     margin-top: -20px;
