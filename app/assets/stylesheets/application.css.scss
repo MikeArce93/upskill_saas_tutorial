@@ -13,12 +13,18 @@
  *= require_tree .
  *= require_self
  */
-
+// BootStrap
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+// Google Fonts 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
 
 
 //Gradient provided by https://twitter.com/_ighosh from UIgradients.com
@@ -33,6 +39,16 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safar
 //Nav Styles 
 .navbar {
     border: none;
+}
+
+.navbar-brand {
+    font-family: 'Righteous' , sans-serif;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    font-family: 'Righteous' , sans-serif;
+    font-weight: 500;
 }
 
 .navbar-default .navbar-brand, 
