@@ -78,6 +78,10 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safar
     color: white;
     }
 
+.alert-notice {
+  display: none;
+}
+
 //Typography styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
